@@ -19,7 +19,7 @@ int main () {
 
 	float conexEntreNod;
 
-	printf ("\n\n¿Cuantos nodos tiene la red? (Maximo 117 nodos)\n\n");
+	printf ("\n\nÂ¿Cuantos nodos tiene la red? (Maximo 117 nodos)\n\n");
 /*Se ingresa el total de nodos de la red*/
 	scanf ("%d", &tnod);
 
@@ -33,7 +33,7 @@ int main () {
 
 			else {                                               /**/
 			
-				printf ("\n\n¿Hay conexion entre el nodo %d y el nodo %d?(Si = 1, No = 0)\n\n", i + 1, j + 1);
+				printf ("\n\nÂ¿Hay conexion entre el nodo %d y el nodo %d?(Si = 1, No = 0)\n\n", i + 1, j + 1);
 
 				scanf ("%d", &conexn);                          /**/
 
